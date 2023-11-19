@@ -1,1 +1,65 @@
+h1 {
+    text-align: center;
+}
 
+p {
+    text-align: center;
+}
+
+.board {
+    border: solid 1px black;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 200%;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  .board td {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .score {
+    color: rgb(7, 7, 7);
+  }
+
+  .msg {
+    padding: 1em;
+  }
+  
+  .msg.ok {
+    color: white;
+    background-color: green;
+  }
+  
+  .msg.err {
+    color: white;
+    background-color: tomato;
+  }
+  
+ /* Styles for Boggle board */
+ 
+  .add-word {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .add-word input {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .words {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  
